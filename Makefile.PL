@@ -17,6 +17,6 @@ WriteMakefile(
     INC                 => '-I.',
 
     EXE_FILES           => [],
-    dist => { COMPRESS => 'bzip2 -9f', SUFFIX => 'bz2', },
+    dist => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'User-getgrouplist-*.tar.*' },
 );

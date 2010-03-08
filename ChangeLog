@@ -1,0 +1,7 @@
+Change log for User::getgrouplist
+
+20100308	[ 1.0.1 ]
+	- Include pwd.h (fix building for multiple platforms)
+		Thanks to Brian De Wolf for notification
+	- Use gzip instead of bzip2 for compressing distribution
+		Thanks to Brian De Wolf as well for this
