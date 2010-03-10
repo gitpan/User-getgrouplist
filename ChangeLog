@@ -1,7 +1,14 @@
 Change log for User::getgrouplist
 
+20100310	[ 1.0.2 ]
+	- Operating system check (do not build on Irix, Solaris, Windows)
+	- Check for availability of libc function before building
+
 20100308	[ 1.0.1 ]
 	- Include pwd.h (fix building for multiple platforms)
 		Thanks to Brian De Wolf for notification
 	- Use gzip instead of bzip2 for compressing distribution
 		Thanks to Brian De Wolf as well for this
+
+20091020	[ 1.0 ]
+	- Initial release

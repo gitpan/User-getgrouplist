@@ -1,5 +1,5 @@
 /*
- * $Id: getgrouplist.xs,v 1.2 2009/10/20 08:06:40 bastian Exp $
+ * $Id: getgrouplist.xs,v 1.3 2010/03/08 10:11:26 bastian Exp $
  *
  * Copyright (C) 2007-2009 Collax GmbH
  *                    (Bastian Friedrich <bastian.friedrich@collax.com>)

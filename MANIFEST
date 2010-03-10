@@ -1,4 +1,5 @@
 lib/User/getgrouplist.pm	Perl interface to the package
+inc/Devel/CheckLib.pm		Devel::CheckLib as available from CPAN
 getgrouplist.xs			Perl extension
 t/00-load.t			Basic tests
 Makefile.PL			MakeMaker make file

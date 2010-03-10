@@ -1,4 +1,4 @@
-# $Id: getgrouplist.pm,v 1.3 2009/10/20 08:06:41 bastian Exp $
+# $Id: getgrouplist.pm,v 1.4 2010/03/08 10:11:26 bastian Exp $
 # Copyright (c) 2007-2009 Collax GmbH
 package User::getgrouplist;
 
@@ -21,7 +21,7 @@ Version 1.0
 
 =cut
 
-our $VERSION = "1.0.1";
+our $VERSION = "1.0.2";
 
 =head1 SYNOPSIS
 
