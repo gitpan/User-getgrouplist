@@ -1,7 +1,5 @@
 /*
- * $Id: getgrouplist.xs,v 1.3 2010/03/08 10:11:26 bastian Exp $
- *
- * Copyright (C) 2007-2009 Collax GmbH
+ * Copyright (C) 2007-2013 Collax GmbH
  *                    (Bastian Friedrich <bastian.friedrich@collax.com>)
  */
 #include "EXTERN.h"

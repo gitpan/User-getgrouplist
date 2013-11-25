@@ -1,5 +1,4 @@
-# $Id: getgrouplist.pm,v 1.4 2010/03/08 10:11:26 bastian Exp $
-# Copyright (c) 2007-2009 Collax GmbH
+# Copyright (c) 2007-2013 Collax GmbH
 package User::getgrouplist;
 
 use 5.006001;
@@ -9,7 +8,7 @@ require Exporter;
 require DynaLoader;
 
 our @ISA = qw(Exporter DynaLoader);
-our @EXPORT = qw ( getgrouplist );
+our @EXPORT = qw(getgrouplist);
 
 =head1 NAME
 
@@ -17,19 +16,19 @@ User::getgrouplist - Interface to glibc "getgrouplist" function
 
 =head1 VERSION
 
-Version 1.0
+Version 1.0.3
 
 =cut
 
-our $VERSION = "1.0.2";
+our $VERSION = '1.0.3';
 
 =head1 SYNOPSIS
 
     use User::getgrouplist;
 
-    my $username = "johndoe";
+    my $username = 'johndoe';
     my @list = getgrouplist($username);
-    print("Groups for user $username: " . join(" ", @list));
+    print('Groups for user $username: ' . join(' ', @list) . "\n");
 
 =head1 Description
 
