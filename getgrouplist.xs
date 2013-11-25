@@ -28,6 +28,8 @@ getgrouplist(username)
 
 			for(i = 0; i < count; i++)
 				XPUSHs(sv_2mortal(newSViv(groups[i])));
+
+			free(groups);
 		}
 	}
 	/*
