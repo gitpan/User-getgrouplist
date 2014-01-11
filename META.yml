@@ -21,4 +21,4 @@ requires:
   Exporter: 0
   Test::Builder: 0
   Test::More: 0
-version: v1.0.4
+version: v1.1.0

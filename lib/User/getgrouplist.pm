@@ -1,4 +1,4 @@
-# Copyright (c) 2007-2013 Collax GmbH
+# Copyright (c) 2007-2014 Collax GmbH
 package User::getgrouplist;
 
 use 5.006001;
@@ -16,11 +16,11 @@ User::getgrouplist - Interface to glibc "getgrouplist" function
 
 =head1 VERSION
 
-Version 1.0.4
+Version 1.1.0
 
 =cut
 
-our $VERSION = '1.0.4';
+our $VERSION = '1.1.0';
 
 =head1 SYNOPSIS
 

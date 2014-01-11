@@ -21,10 +21,22 @@ To install this module type the following:
    make install
 
 
+Bugs
+====
+
+None known.
+
+Due to the nature of getgrouplist being a non-POSIX (non-standard) function,
+the existence of the function does not automatically mean that it will work
+in a defined behavior. Versions of this module up to and including 1.0.4
+returned empty lists on OpenBSD and MacOS X (fixed with 1.1.0); other systems
+that provide an implementation of getgrouplist may behave differently as well.
+
+
 Copyright and licence
 =====================
 
-Copyright (C) 2007-2013 Collax GmbH. All rights reserved.
+Copyright (C) 2007-2014 Collax GmbH. All rights reserved.
 (Bastian Friedrich <bastian.friedrich@collax.com> or <bastian@bastian-friedrich.de>)
 
 This library is free software; you can redistribute it and/or modify
