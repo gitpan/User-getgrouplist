@@ -1,5 +1,8 @@
 Change log for User::getgrouplist
 
+20140410	[ 1.1.1 ]
+	- Fix implementation for Cygwin
+
 20140109	[ 1.1.0 ]
 	- Add support for OpenBSD and MacOS X
 

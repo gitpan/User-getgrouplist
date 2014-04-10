@@ -5,7 +5,7 @@ use ExtUtils::Liblist;
 #
 # Do not try to build on systems /known/ not to work
 #
-if (grep { $^O eq $_ } qw(irix solaris MSWin32)) {
+if (grep { $^O eq $_ } qw(irix solaris MSWin32 msys)) {
 	print("OS unsupported\n");
 	exit(0);
 }
